@@ -158,7 +158,93 @@ def play_game():
 play_game()
 ```
 ### OUTPUT
+
 <img width="449" height="806" alt="image" src="https://github.com/user-attachments/assets/ad3d7d96-a709-41f0-b423-7c88eea2b711" />
+
+```
+TIC-TAC-TOE with Alpha-Beta Pruning
+You are X, Computer is O
+
+
+_ _ _
+_ _ _
+_ _ _
+
+
+Enter your move (0-8): 5
+
+
+_ _ _
+_ _ X
+_ _ _
+
+
+Computer thinking...
+
+
+_ _ O
+_ _ X
+_ _ _
+
+
+Enter your move (0-8): 4
+
+
+_ _ O
+_ X X
+_ _ _
+
+
+Computer thinking...
+
+
+_ _ O
+O X X
+_ _ _
+
+
+Enter your move (0-8): 1
+
+
+_ X O
+O X X
+_ _ _
+
+
+Computer thinking...
+
+
+_ X O
+O X X
+_ O _
+
+
+Enter your move (0-8): 0
+
+
+X X O
+O X X
+_ O _
+
+
+Computer thinking...
+
+
+X X O
+O X X
+_ O O
+
+
+Enter your move (0-8): 6
+
+
+X X O
+O X X
+X O O
+
+
+ It's a Draw!
+```
 
 ### RESULT
 Alpha-beta pruning of Minimax Search Algorithm for a Simple TIC-TAC-TOE game is implemented.
